@@ -1,2 +1,2 @@
 # Salary-Calculator
- CLT Salary Calculator
+ CLT Brazilian law - Salary Calculator
