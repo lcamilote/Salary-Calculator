@@ -56,9 +56,11 @@ def calcliquidsalary():
     liquidsalary = basesalary + calconcall() + calceh() + commission - calcinss() - calcirrf() - discount
     return round(liquidsalary, 2)
 
+totaldiscount = calcirrf() + calcinss() + discount
 # Print out the information to the user
 print(f'Oncall: {calconcall()}')
 print(f'Extra Hours: {calceh()}')
 print(f'INSS: {calcinss()}')
 print(f'IRRF: {calcirrf()}')
+print(f'Total Discounts: {totaldiscount}')
 print(f'Liquid Salary: {calcliquidsalary()}')
