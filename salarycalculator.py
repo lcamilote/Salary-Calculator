@@ -24,7 +24,7 @@ def calceh():
 
 # INSS discount calculator
 def calcinss():
-    if basesalary <= 100:
+    if basesalary <= 1000:
         inss = basesalary * 0.075
     elif basesalary <= 2203.48:
         inss = basesalary * 0.09
